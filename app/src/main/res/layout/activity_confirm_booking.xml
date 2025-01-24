@@ -9,7 +9,7 @@
 
         <variable
             name="confirmBookingViewModel"
-            type="com.dms.dmssevent.viewmodel.ConfirmABookingViewModel" />
+            type="com.digitalminds.dmssevent.viewmodel.ConfirmABookingViewModel" />
     </data>
 
     <LinearLayout

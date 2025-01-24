@@ -81,7 +81,7 @@
             android:textColor="@color/greyDark" />-->
 
 
-        <com.dms.dmssevent.common.ExpandableTextView
+        <com.digitalminds.dmssevent.common.ExpandableTextView
             android:id="@+id/textViewDescriptionNewFeed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

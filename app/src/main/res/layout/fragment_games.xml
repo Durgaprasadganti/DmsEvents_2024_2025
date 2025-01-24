@@ -148,7 +148,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1" />
 
-                            <com.dms.dmssevent.circleindicator.CirclePageIndicator
+                            <com.digitalminds.dmssevent.circleindicator.CirclePageIndicator
                                 android:id="@+id/indicator"
                                 android:layout_width="100dp"
                                 android:layout_height="match_parent"

@@ -8,7 +8,7 @@
     <data>
         <variable
             name="myBookingViewdel"
-            type="com.dms.dmssevent.viewmodel.BookMyGameViewModel" />
+            type="com.digitalminds.dmssevent.viewmodel.BookMyGameViewModel" />
     </data>
 
    <!-- <androidx.swiperefreshlayout.widget.SwipeRefreshLayout

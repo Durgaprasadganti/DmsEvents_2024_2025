@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DMSS_Events.iml" filepath="$PROJECT_DIR$/.idea/modules/DMSS_Events.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DMSS_Events.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DMSS_Events.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DMSS_Events.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DMSS_Events.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DMSS_Events.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DMSS_Events.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DMSS_Events.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DMSS_Events.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DMSS_Events2025.iml" filepath="$PROJECT_DIR$/.idea/modules/DMSS_Events2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DMSS_Events2025.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DMSS_Events2025.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DMSS_Events2025.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DMSS_Events2025.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DMSS_Events2025.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DMSS_Events2025.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DMSS_Events2025.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DMSS_Events2025.app.unitTest.iml" />
     </modules>
   </component>
 </project>

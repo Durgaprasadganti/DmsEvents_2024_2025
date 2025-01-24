@@ -3,10 +3,10 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         config {
-            keyAlias 'key0'
-            keyPassword 'password'
-            storeFile file('../dmssmilestone2019.jks')
-            storePassword 'Password1'
+            keyAlias 'dmssEvents2025'
+            keyPassword 'Digital@123'
+            storeFile file('../dmssevents2025.jks')
+            storePassword 'Digital@123'
         }
     }
     dataBinding {
@@ -14,11 +14,11 @@ android {
     }
     compileSdkVersion 34
     defaultConfig {
-        applicationId "com.dms.dmssevent"
+        applicationId "com.digitalminds.dmssevent"
         minSdk 24
         targetSdkVersion 34
-        versionCode 21
-        versionName "3.5"
+        versionCode 1
+        versionName "1"
         multiDexEnabled true
         signingConfig signingConfigs.config
     }

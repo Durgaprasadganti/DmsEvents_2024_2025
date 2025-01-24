@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorWhite"
     android:orientation="vertical"
-    tools:context="com.dms.dmssevent.NominationsAwardsActivity">
+    tools:context="com.digitalminds.dmssevent.NominationsAwardsActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarGamesList"

@@ -7,7 +7,7 @@
 
         <variable
             name="choosePlayerViewModel"
-            type="com.dms.dmssevent.viewmodel.ChoosePlayerViewModel" />
+            type="com.digitalminds.dmssevent.viewmodel.ChoosePlayerViewModel" />
     </data>
 
     <LinearLayout

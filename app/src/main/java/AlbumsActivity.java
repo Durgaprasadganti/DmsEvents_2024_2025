@@ -2,8 +2,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.GridView;
 
-import com.dms.dmssevent.R;
-import com.dms.dmssevent.common.DmsEventsBaseActivity;
+import com.digitalminds.dmssevent.R;
+import com.digitalminds.dmssevent.common.DmsEventsBaseActivity;
 
 /**
  * Created by sandeep.kumar on 21-03-2017.

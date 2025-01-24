@@ -120,7 +120,7 @@
             android:padding="5dp"
             android:src="@drawable/close_picture" />
 
-        <com.dms.dmssevent.common.TouchImageView
+        <com.digitalminds.dmssevent.common.TouchImageView
             android:id="@+id/awardImageView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

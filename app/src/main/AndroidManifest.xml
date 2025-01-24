@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.dms.dmssevent">
+    package="com.digitalminds.dmssevent">
     <!-- Required for foreground services on P+. -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
@@ -23,7 +23,7 @@
     <uses-permission android:name="android.permission.MODE_WORLD_WRITEABLE" />
 
     <application
-        android:name="com.dms.dmssevent.common.DmsEventsAppController"
+        android:name="com.digitalminds.dmssevent.common.DmsEventsAppController"
         android:hardwareAccelerated="false"
         android:icon="@drawable/app_icon_main"
         android:label="@string/app_name"
@@ -39,16 +39,16 @@
             android:value="AIzaSyCAUUAKTb5Ui2kSqYLOZLUHjA6nHCpDecQ"/>
 
 
-        <activity android:name="com.dms.dmssevent.PermissionActivity"
+        <activity android:name="com.digitalminds.dmssevent.PermissionActivity"
             android:launchMode="singleTask">
 
         </activity>
         <activity
-            android:name="com.dms.dmssevent.NominationsSelectionActivity"
+            android:name="com.digitalminds.dmssevent.NominationsSelectionActivity"
             android:screenOrientation="portrait" />
-        <activity android:name="com.dms.dmssevent.ConfirmBookingActivity" />
+        <activity android:name="com.digitalminds.dmssevent.ConfirmBookingActivity" />
         <activity
-            android:name="com.dms.dmssevent.SplashActivity"
+            android:name="com.digitalminds.dmssevent.SplashActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:exported="true">
@@ -80,128 +80,128 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.dms.dmssevent.EventsDetails"
+            android:name="com.digitalminds.dmssevent.EventsDetails"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.EventAlbumsList"
+            android:name="com.digitalminds.dmssevent.EventAlbumsList"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.GalleryActivity"
+            android:name="com.digitalminds.dmssevent.GalleryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.GamesListActivity"
+            android:name="com.digitalminds.dmssevent.GamesListActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.LoginActivity"
+            android:name="com.digitalminds.dmssevent.LoginActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateVisible|adjustResize" />
         <activity
-            android:name="com.dms.dmssevent.ScheduleActivity"
+            android:name="com.digitalminds.dmssevent.ScheduleActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.RatingActivity"
+            android:name="com.digitalminds.dmssevent.RatingActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.MyGamesTabs"
+            android:name="com.digitalminds.dmssevent.MyGamesTabs"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.DoublesGamesTabsActivity"
+            android:name="com.digitalminds.dmssevent.DoublesGamesTabsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.Dashboard"
+            android:name="com.digitalminds.dmssevent.Dashboard"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.FragmentsMainActivity"
+            android:name="com.digitalminds.dmssevent.FragmentsMainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.EventBanners"
+            android:name="com.digitalminds.dmssevent.EventBanners"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.BannerGalleryActivity"
+            android:name="com.digitalminds.dmssevent.BannerGalleryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.OTPVerification"
+            android:name="com.digitalminds.dmssevent.OTPVerification"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.dms.dmssevent.MailValidationActivity"
+            android:name="com.digitalminds.dmssevent.MailValidationActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name="com.dms.dmssevent.ProfileActivity"
+            android:name="com.digitalminds.dmssevent.ProfileActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.AwardsActivity"
+            android:name="com.digitalminds.dmssevent.AwardsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.FireBaseActivity"
+            android:name="com.digitalminds.dmssevent.FireBaseActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.SinglesGamesTabsActivity"
+            android:name="com.digitalminds.dmssevent.SinglesGamesTabsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.TeamsListActivity"
+            android:name="com.digitalminds.dmssevent.TeamsListActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.AddNewFeedActivity"
+            android:name="com.digitalminds.dmssevent.AddNewFeedActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.CommentsActivity"
+            android:name="com.digitalminds.dmssevent.CommentsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.dms.dmssevent.RemoteControlActivity"
+            android:name="com.digitalminds.dmssevent.RemoteControlActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.dms.dmssevent.NominateActivity"
+            android:name="com.digitalminds.dmssevent.NominateActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.dms.dmssevent.GuideLinesActivity"
+            android:name="com.digitalminds.dmssevent.GuideLinesActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.dms.dmssevent.NominationsAwardsActivity"
+            android:name="com.digitalminds.dmssevent.NominationsAwardsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" /> <!-- //dmssmob@gmail.com -->
         <activity
-            android:name="com.dms.dmssevent.ChoosePlayerActivity"
+            android:name="com.digitalminds.dmssevent.ChoosePlayerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.BookMyGameActivity"
+            android:name="com.digitalminds.dmssevent.BookMyGameActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.BookingNotifications"
+            android:name="com.digitalminds.dmssevent.BookingNotifications"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.SelectPlayerActivity"
+            android:name="com.digitalminds.dmssevent.SelectPlayerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.AddMorePlayersActivity"
+            android:name="com.digitalminds.dmssevent.AddMorePlayersActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.viewmodel.AddExtraPlayerActivity"
+            android:name="com.digitalminds.dmssevent.viewmodel.AddExtraPlayerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.AddPlayerFromBookingFragmentsActv"
+            android:name="com.digitalminds.dmssevent.AddPlayerFromBookingFragmentsActv"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.AddMoreSecondPlayersActivity"
+            android:name="com.digitalminds.dmssevent.AddMoreSecondPlayersActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.dms.dmssevent.firebase.NotificationsDetailView"
+            android:name="com.digitalminds.dmssevent.firebase.NotificationsDetailView"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="portrait" />
 
-        <service android:name="com.dms.dmssevent.firebase.MyFirebaseMessagingService"
+        <service android:name="com.digitalminds.dmssevent.firebase.MyFirebaseMessagingService"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service android:name="com.dms.dmssevent.firebase.FirebaseInstanceIDService"
+        <service android:name="com.digitalminds.dmssevent.firebase.FirebaseInstanceIDService"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
@@ -209,7 +209,7 @@
         </service>
 
         <receiver
-            android:name="com.dms.dmssevent.firebase.NotificationReceiver"
+            android:name="com.digitalminds.dmssevent.firebase.NotificationReceiver"
             android:exported="true"
             android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
@@ -227,7 +227,7 @@
                 android:resource="@xml/provider_paths" />
         </provider> <!-- Foreground services in Q+ require type. -->
         <service
-            android:name="com.dms.dmssevent.locationservice.LocationUpdatesService"
+            android:name="com.digitalminds.dmssevent.locationservice.LocationUpdatesService"
             android:enabled="true"
             android:exported="true"
             android:label="RestartServiceWhenStopped" />

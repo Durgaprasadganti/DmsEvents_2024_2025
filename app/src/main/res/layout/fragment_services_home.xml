@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/service_fragment"
-    tools:context="com.dms.dmssevent.fragments.ServicesHomeFragment">
+    tools:context="com.digitalminds.dmssevent.fragments.ServicesHomeFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/idCourseRV"
